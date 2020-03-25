@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/All.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <style>
+        header {
+            width: 100%;
+            padding: 0 7%;
+            margin: 0;
+            max-width: 100%;
+
+            background-image: url("banner-bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: auto;
+        }
+
+
+        #ex{
+            box-shadow: -2px 14px 20px -4px rgba(186,180,186,1);
+        }
+
+        .grad {
+            background-image: linear-gradient(to right, #868fff, #cf96ff);
+            border: none;
+        }
+
+        #other {
+            width: 100%;
+            padding: 0 7%;
+            margin: 0;
+            max-width: 100%;
+
+            background-image: url("img/feature-bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: auto;
+        }
+
+        #other2 {
+            width: 100%;
+            padding: 0 7%;
+            margin: 0;
+            max-width: 100%;
+
+            background-image: url("img/footer-bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: auto;
+        }
+
+        .icon {
+
+            font-size: 13px;
+            color: white;
+            padding-left: 10px;
+        }
+
+        .icon2 {
+            padding: 2px;
+            font-size: 30px;
+            color: black;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header class=" container-fluid pb-5">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top ">
+            <section class="container pl-4">
+                <img src="E:\iti\html5\lab1_soln\img\logo.png" width="160" height="27" alt="Robotics">
+                <!-- 	<a class="navbar-brand text-light" href="#">Robotics</a> -->
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <section class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav navbar-right" style="padding-left: 300px;">
+
+                        <li class="nav-item active">
+                            <a class="nav-link text-light  " href="#">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">ABOUT Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">SERVICES</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">PRODUCTS</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                BLOG
+                            </a>
+                            <section class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <section class="dropdown-divider"></section>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </section>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">CONTACT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light  " href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Drop Down
+                            </a>
+                            <section class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <section class="dropdown-divider"></section>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </section>
+                        </li>
+                    </ul>
+                </section>
+        </nav>
+        <section class="container pb-3">
+            <section class="row pr-5">
+                <section class="col-lg-6 col-sm-12 p-5 mt-5 ">
+                    <aside class="text-light " style="font-size: 50px;">
+                        Improved production level with Robotics
+                    </aside>
+                    <p class="text-white p-1 font-weight-light" style="font-size: 12px;"> EVERY ONE WANTS THE INNOVATION
+                        THROUGH ROBOTICS</p>
+                    <button type="button" class="btn btn-light rounded-0 px-4 py-2 " onclick=""
+                        style="font-size: 12px;">
+                        VIEW DETAILS</button>
+
+                </section>
+
+                <figure class="col-lg-6 col-sm-12 p-1 mt-5 ">
+                    <img src="img\banner-img.png" alt="" class="img-fluid">
+                </figure>
+
+            </section>
+        </section>
+    </header>
+    <!--  ////// -->
+
+    <main class="container-fluid my-5 pb-4">
+
+        <h1 class="text-center">Featured Robotics Products to Show </h1>
+
+
+        <p class="text-center text-secondary">who are in extremly love with eco friendly system</p>
+
+        <!--<section class="col-lg-4">
+            <section class="col-lg-12 col-sm-6 rounded bg-light p-3 mb-2 ">
+                <h5>Expert Technician</h5>
+                <p>Usage of the internet is becoming more common due to rapid
+                    advancement of technology and power.
+                </p>
+            </section>
+        </section> -->
+        
+    <section class="container">
+        <section class="row  ">
+
+            <section class="col-lg-3 col-sm-12  " id="ex" align="center">
+
+                <figure class="col-lg-12 col-sm-6 bg-white ">
+                    <img src="img/p1.png" alt="" class="img-fluid">
+                </figure>
+
+                <section class="bg-light ">
+                    <h5>The upper eye</h5>
+                    <p class="text-muted">who are in extremly love with eco friendly system </p>
+                    <button type="button" class="btn  rounded-0 px-4 py-2 " onclick="" style="background-color: white;
+                    font-size: 12px;">VIEW DETAILS</button>
+
+                </section>
+
+            </section>
+
+            <section class="col-lg-3 col-sm-12" id="ex" pb-3 align="center">
+
+                <figure class="col-lg-12 col-sm-6 bg-white p-4">
+                    <img src="img/p2.png" alt="" class="img-fluid">
+                </figure>
+                <section class="bg-light p-3">
+                    <h5>The crab wheel</h5>
+                    <p class="text-muted">who are in extremly love with eco friendly system </p>
+                    <button type="button" class="btn  rounded-0 px-4 py-2 " onclick="" style="background-color: white;
+                    font-size: 12px;">VIEW DETAILS</button>
+                </section>
+            </section>
+
+            <section class="col-lg-3 col-sm-12 " id="ex" pb-3 align="center">
+
+                <figure class="col-lg-12 col-sm-6 bg-white p-4">
+                    <img src="img/p3.png" alt="" class="img-fluid">
+                </figure>
+                <section class="bg-light p-3">
+                    <h5>The plug ninja</h5>
+                    <p class="text-muted">who are in extremly love with eco friendly system </p>
+                    <button type="button" class="btn  rounded-0 px-4 py-2 " onclick="" style="background-color: white;
+                    font-size: 12px;">VIEW DETAILS</button>
+                </section>
+
+
+            </section>
+
+            <section class="col-lg-3 col-sm-12 " id="ex"  align="center">
+                <figure class="col-lg-12 col-sm-6 bg-white p-4">
+                    <img src="img/p4.png" alt="" class="img-fluid">
+                </figure>
+                <section class="bg-light p-3">
+                    <h5>The controller</h5>
+                    <p class="text-muted">who are in extremly love with eco friendly system </p>
+                    <button type="button" class="btn  rounded-0 px-4 py-2 " onclick="" style="background-color: white;
+                    font-size: 12px;">VIEW DETAILS</button>
+                </section>
+
+            </section>
+        </section>
+    </section>
+    </main>
+
+    <!-- //// -->
+    <section class="container-fluid">
+
+        <section class="row mx-4 mb-5">
+            <figure class="col-lg-6 col-sm-12">
+                <img src="img/about-img.png" alt="" class="img-fluid">
+            </figure>
+
+            <section class="col-lg-6 col-sm-12 pt-5 mt-5">
+                <h2 class="font-weight-bold ">Globaly Connected <br> by Large Network</h2>
+                <p>We are here to listen from your deliver excellence</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Iste voluptates consequuntur accusantium praesentium eligendi sed est ab cum nobis.
+                    A ea at quibusdam officiis eos voluptatem vero dicta assumenda dignissimos.</p>
+                <button type="button" class="btn btn-light rounded-0 px-4 py-2 grad text-white" onclick=""
+                    style="font-size: 12px;">
+                    GET DETAILS</button>
+            </section>
+        </section>
+    </section>
+    <section class="container-fluid">
+        <section class="container pt-5 pb-5 mb-5">
+
+            <section class="row ">
+
+                <section class="col-lg-6 col-sm-12 px-5 pt-4">
+                    <p class="text-primary" style="font-size: 13px;">BRAND NEW APP TO BLOW YOUR MIND </p>
+                    <h2 class="font-weight-bold pb-3">We've made a life <br> that will change you </h2>
+                    <p class="font-weight-bold" style="font-size: 13px;">We are here to listen from your deliver
+                        excellence
+                    </p>
+                    <p class="text-secondary" style="font-size: 14px;">Lorem ipsum, dolor sit amet consectetur
+                        adipisicing
+                        elit.
+                        Iste voluptates conseq uuntur accusantium praes.</p>
+                    <button type="button" class="btn btn-light rounded-0  grad text-white px-4 py-2 " onclick=""
+                        style="font-size: 12px;">
+                        GET STARTED NOW </button>
+                </section>
+
+                <video class="col-lg-6 col-sm-12">
+                    <source src="img/video-bg.jpg" type="video/mp4">>
+                    <img src="img/video-bg.jpg" alt="" class="img-fluid">
+                </video>
+            </section>
+        </section>
+    </section>
+    <!-- //// -->
+    <section class="container-fluid p-5 mb-5" id="other">
+        <h2 class="text-white pt-5 mt-3" align="center">Some Features that Made us Unique</h2>
+        <p class="text-white" align="center" style="font-size: 12px;">Who are in extremly love with eco friendly system
+        </p align="center">
+
+        <section class="container p-5 mb-5">
+            <section class="row">
+
+                <section class="col-lg-4">
+                    <section class="col-lg-12 col-sm-6 rounded bg-light p-3 mb-2 ">
+                        <h5>Expert Technician</h5>
+                        <p>Usage of the internet is becoming more common due to rapid
+                            advancement of technology and power.
+                        </p>
+                    </section>
+                </section>
+                <section class="col-lg-4">
+                    <section class="col-lg-12 col-sm-6 rounded bg-light p-3 mb-2 ">
+                        <h5>Professional Service</h5>
+                        <p>Usage of the internet is becoming more common due to rapid
+                            advancement of technology and power.
+                        </p>
+                    </section>
+                </section>
+
+                <section class="col-lg-4">
+                    <section class="col-lg-12 col-sm-6 rounded bg-light p-3 mb-2 ">
+                        <h5>Great Support</h5>
+                        <p>Usage of the internet is becoming more common due to rapid
+                            advancement of technology and power.
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <section class="row">
+                <section class="col-lg-4">
+                    <section class="col-lg-12 col-sm-6 rounded bg-light p-3 mt-2">
+                        <h5>Technical Skills</h5>
+                        <p>Usage of the internet is becoming more common due to rapid
+                            advancement of technology and power.
+                        </p>
+                    </section>
+                </section>
+                <section class="col-lg-4">
+
+                    <section class="col-lg-12 col-sm-6 rounded bg-light p-3 mt-2">
+                        <h5>Highly Recomended</h5>
+                        <p>Usage of the internet is becoming more common due to rapid
+                            advancement of technology and power.
+                        </p>
+                    </section>
+                </section>
+                <section class="col-lg-4">
+
+                    <section class="col-lg-12 col-sm-6 rounded bg-light p-3 mt-2">
+                        <h5>Positive Reviews</h5>
+                        <p>Usage of the internet is becoming more common due to rapid
+                            advancement of technology and power.
+                        </p>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <!-- /// -->
+    <section class="container-fluid">
+        <section class="container py-5 mb-5">
+            <section class="row pt-3 ">
+                <figure class="col-sm mb-4" align="center">
+                    <img src="img/l1.png" alt="" class="img-fluid">
+                </figure>
+                <figure class="col-sm mb-4" align="center">
+                    <img src="img/l2.png" alt="" class="img-fluid">
+                </figure>
+                <figure class="col-sm mb-4" align="center">
+                    <img src="img/l3.png" alt="" class="img-fluid">
+                </figure>
+                <figure class="col-sm mb-4" align="center">
+                    <img src="img/l4.png" alt="" class="img-fluid">
+                </figure>
+                <figure class="col-sm mb-4" align="center">
+                    <img src="img/l5.png" alt="" class="img-fluid">
+                </figure>
+            </section>
+        </section>
+    </section>
+    <!-- /// -->
+    <section class="container-fluid">
+        <section class="container mb-5">
+            <h2 class="font-weight-bold pb-3" align="center">Latest News from our Blog </h2>
+            <p class="font-weight-normal text-secondary" style="font-size: 13px;" align="center">We are here to listen
+                from
+                your deliver excellence
+            </p>
+
+            <section class="row mt-5">
+                <figure class="col-lg-6 col-sm-12">
+                    <img src="img/b1.jpg" alt="" class="img-fluid  mb-3">
+
+                    <section class="mb-3">
+                        <button type="button" class="btn btn-light rounded-0  grad text-white px-4 py-2 " onclick=""
+                            style="font-size: 12px;">
+                            Travel </button>
+
+                        <button type="button" class="btn btn-light rounded-0  grad text-white px-4 py-2 " onclick=""
+                            style="font-size: 12px;">
+                            Life Style </button>
+                    </section>
+
+                    <h5 class="font-weight-bold">Portable latest Fashoin for young women</h5>
+                    <p class="text-secondary pr-5" style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.
+                        Pariatur sed laborum libero soluta ratione dolore repellat omnis rem earum animi.</p>
+                    <p style="font-size: 12px;">31st January,2018</p>
+                </figure>
+                <figure class="col-lg-6 col-sm-12">
+                    <section class="mb-3">
+                        <img src="img/b2.jpg" alt="" class="img-fluid mb-3">
+
+                        <section class="mb-3">
+                            <button type="button" class="btn btn-light rounded-0  grad text-white px-4 py-2 " onclick=""
+                                style="font-size: 12px;">
+                                Travel </button>
+
+                            <button type="button" class="btn btn-light rounded-0  grad text-white px-4 py-2 " onclick=""
+                                style="font-size: 12px;">
+                                Life Style </button>
+                        </section>
+
+                        <h5 class="font-weight-bold">Portable latest Fashoin for young women</h5>
+                        <p class="text-secondary pr-5" style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.
+                            Pariatur sed laborum libero soluta ratione dolore repellat omnis rem earum animi.</p>
+                        <p style="font-size: 12px;">31st January,2018</p>
+                </figure>
+            </section>
+        </section>
+    </section>
+    <!-- /// -->
+    <footer class="container-fluid py-5 " id="other2">
+        <section class="container">
+            <section class="row pt-5 my-3 ">
+                <section class="col-lg-3  col-sm-12   px-3 py-5">
+                    <h5 class="text-white">Top Products</h5>
+                    <p class="text-light" style="font-size: 12px;">Managed Website</p>
+                    <p class="text-light" style="font-size: 12px;">Manage Repulation</p>
+                    <p class="text-light" style="font-size: 12px;">Power Tools</p>
+                    <p class="text-light" style="font-size: 12px;">Markting Service</p>
+                </section>
+
+                <section class="col-lg-5 col-sm-12 px-3 py-5">
+                    <h5 class="text-white">Newsletter</h5>
+                    <p class="text-light" style="font-size: 12px;">You can trust us. We only sent promo offers,
+                        not a single spam</p>
+                    <form action="">
+                        <input type="text" name="email" placeholder="Enter Email"
+                            style="border-radius: 16px;border: none;" class="pr-5 mr-3 py-1 pl-3 mb-1">
+
+                        <button type="button" class="btn btn-light grad text-white px-4 py-2 "
+                            style="font-size: 12px; border-radius: 16px;">
+                            SUBSCRIBE <i class="fas fa-arrow-right icon"></i></button>
+                    </form>
+                </section>
+
+                <section class="col-lg-3 col-sm-12 px-2 py-5 ">
+                    <h5 class="text-white">Instragam Feed</h5>
+                    <section class="row m-0 ">
+                        <figure col-lg-4 col-sm-6><img src="img/i1.jpg" alt="" class="img-fluid px-1 "></figure>
+                        <figure><img src="img/i2.jpg" alt="" class="img-fluid px-1"></figure>
+                        <figure><img src="img/i3.jpg" alt="" class="img-fluid px-1"></figure>
+                        <figure><img src="img/i4.jpg" alt="" class="img-fluid px-1"></figure>
+                    </section>
+                    <section class="row m-0">
+                        <figure><img src="img/i5.jpg" alt="" class="img-fluid px-1"></figure>
+                        <figure><img src="img/i6.jpg" alt="" class="img-fluid px-1"></figure>
+                        <figure><img src="img/i7.jpg" alt="" class="img-fluid px-1"></figure>
+                        <figure><img src="img/i8.jpg" alt="" class="img-fluid px-1"></figure>
+                    </section>
+                </section>
+
+            </section>
+
+            <section class="row  py-5 ">
+                <section class="col-9">
+                    <p class="text-light">Copyright &copy;2019 All rights Reserved|Thw template is made by Sarah</p>
+                </section>
+                <section class="col-3">
+                    <section class="row m-0 px-5">
+                        <i class="fab fa-facebook-square icon2 "></i>
+                        <i class="fab fa-twitter-square icon2 "></i>
+                        <i class="fab fa-dribbble-square icon2 "></i>
+                        <i class="fab fa-behance-square icon2 "></i>
+
+                    </section>
+                </section>
+            </section>
+        </section>
+    </footer>
+</body>
+
+</html>
